@@ -33,7 +33,7 @@ const fetchData = async (url) => {
 const fetchChannelData = async () => {
     try {
         console.log('Fetching channel data...');
-        const response = await fetchData("https://babel-in.xyz/babel-3305a8808263cb8044f7327b9c1b8e82/tata/channels");
+        const response = await fetchData("https://gist.githubusercontent.com/harshuma28/b8746927189cc280f8d445fa9e33a120/raw/3d7dfa7e3733a3c109c8a127abbcb8c7cab9f9c3/fetcher.json");
 
         
         const channels = response?.data || [];
